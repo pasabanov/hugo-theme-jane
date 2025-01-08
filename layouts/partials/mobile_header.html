@@ -87,17 +87,6 @@
       </li>
       {{- end }}
 
-      {{ if .Site.Params.search.google.enable }}
-      <li class="mobile-menu-item">
-        <a id="openSearchMobile" class="mobile-menu-item-link menu-item-search" href="#">
-          {{ partial "icons/icon" (dict
-          "path" "icons/header/search.svg"
-          "className" "icon--search"
-          ) }}
-        </a>
-      </li>
-      {{ end }}
-
       <li class="mobile-menu-item">
         <a class="theme-toggle menu-item-link" href="javascript:void(0);">
 

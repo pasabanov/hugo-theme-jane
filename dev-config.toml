@@ -15,7 +15,6 @@ hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否�
 
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = "xianmin12"      # disqus_shortname
-googleAnalytics = "G-4SFSR6JRVT"      # G-********
 copyright = ""            # default: params.author.name ↓ # 默认为下面配置的params.author.name ↓
 enableGitInfo = true # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 # uglyURLs = true
@@ -139,11 +138,7 @@ defaultContentLanguage = "en"  # Default language to use (if you setup multiling
 
   changyanAppid = ""        # Changyan app id             # 畅言
   changyanAppkey = ""       # Changyan app key
-  tencent_analytics = ""    # Tencent Analytics
   baidu_push = false        # baidu push                  # 百度
-  baidu_analytics = ""      # Baidu Analytics
-  baidu_verification = ""   # Baidu Verification
-  google_verification = ""  # Google_Verification         # 谷歌
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -174,11 +169,6 @@ defaultContentLanguage = "en"  # Default language to use (if you setup multiling
     # theme = "light"
     # lang = "en"
     # lazyLoading = false
-
-  [params.search.google]    # google custom search, see https://cse.google.com
-    enable = true
-    id = "002186711602136249422:q1gkomof_em"
-    title = "Search"
 
   # use public git repo url to link lastmod git commit, enableGitInfo should be true.
   # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.

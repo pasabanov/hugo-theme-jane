@@ -77,17 +77,6 @@
       </li>
       {{ end }}
 
-      {{ if .Site.Params.search.google.enable }}
-      <li class="menu-item">
-        <a class="menu-item-link" data-target="search-modal" onclick="toggleModal(event)" href="#">
-          {{ partial "icons/icon" (dict
-          "path" "icons/header/search.svg"
-          "className" "icon--search"
-          ) }}
-        </a>
-      </li>
-      {{ end }}
-
       <li class="menu-item">
         <a class="theme-toggle menu-item-link" href="javascript:void(0);">
 

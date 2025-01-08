@@ -31,12 +31,6 @@
   {{ partial "photoswipe.html" . }}
   {{ end }} */}}
 
-  {{ if .Site.Params.search.google.enable }}
-    {{ partial "search_google.html" . }}
-  {{ end }}
-
-
-
   <main id="main" class="main pico container">
     {{ block "content" . }}{{ end }}
   </main>

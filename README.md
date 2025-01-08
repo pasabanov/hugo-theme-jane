@@ -20,7 +20,6 @@ Jane is a readable theme for Hugo. Many color schemes to choose, and easy to per
 - Use the awesome Chroma syntax highlighting
 - Custom css, Custom js, Custom head support
 - Sub menu support
-- Search Optimization
 
 ## Development Philosophy of This Theme
 1. No `node_modules` - fewer dependencies make maintenance easier.
@@ -204,4 +203,3 @@ This project exists thanks to all the people who contribute:
 ## License
 
 Hugo-theme-jane is licensed under the MIT license. Check the [LICENSE](LICENSE.md) file for details.
-

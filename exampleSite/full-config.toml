@@ -8,7 +8,6 @@ hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否�
 paginate = 3              # Number of articles displayed on the homepage # 首页每页显示的文章数
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: params.author.name ↓ # 默认为下面配置的params.author.name ↓
 enableGitInfo = true      # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 # uglyURLs = true         # more info: https://gohugo.io/content-management/urls/#ugly-urls
@@ -102,11 +101,7 @@ defaultContentLanguage = "en"           # Default language to use
 
   changyanAppid = ""        # Changyan app id             # 畅言
   changyanAppkey = ""       # Changyan app key
-  tencent_analytics = ""    # Tencent Analytics
   baidu_push = false        # baidu push                  # 百度
-  baidu_analytics = ""      # Baidu Analytics
-  baidu_verification = ""   # Baidu Verification
-  google_verification = ""  # Google_Verification         # 谷歌
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -170,11 +165,6 @@ defaultContentLanguage = "en"           # Default language to use
     verify = false # Verification code
     avatar = 'mm'
     placeholder = ''
-
-  [params.search.google]    # google custom search, see https://cse.google.com
-    enable = false
-    id = "002186711602136249422:q1gkomof_em"
-    title = "Search"
 
   [params.reward]                                         # 文章打赏
     enable = false
